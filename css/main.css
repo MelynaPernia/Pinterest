@@ -38,12 +38,14 @@ ul {
   clear: left;
   list-style: none;
   overflow: auto;
+  padding-bottom: 1%;
 }
 
 li {
   float: left;
   margin-left:  40px;
   line-height: 50px;
+  border-radius: 10px;
   /*background-color: red;*/
 }
 
