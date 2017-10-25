@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+
+header {
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: auto;
+}
+
+nav {
+  background-color: white;
+  display: block;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+hr {
+  clear: left;
+  display: block;
+}
+
+
+div {
+  display: inline-block;
+  float: left;
+}
+
+input {
+  width:  600px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+ul {
+  clear: left;
+  list-style: none;
+  overflow: auto;
+}
+
+li {
+  float: left;
+  margin-left:  40px;
+  line-height: 50px;
+  /*background-color: red;*/
+}
+
+a {
+  display: block;
+  text-align: center;
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.image-logo{
+  width: 50px;
+  height: 50px;
+}
+
+.logo-pinterest {
+  float: left;
+}
+
+
+
+article {
+  float: left;
+  margin-left: 20px;
+  margin-top: 200px;
+}
+
+section{
+  margin-left: 10px;
+
+}
+
+img {
+  width: 280px;
+  height: auto;
+  border-radius: 20px;
+}
+
+img:first-child{
+  margin-left: 0;
+}
+
+.font-brown {
+  background-color: #746050;
+}
+
+.font-brown-light{
+  background-color: #ab8b6f;
+}
+
+.font-green {
+  background-color: #98954d;
+}
