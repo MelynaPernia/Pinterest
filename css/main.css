@@ -1,104 +1,125 @@
-body {
+﻿/*Selector universal para resetear todo*/
+* {
+  box-sizing: border-box;
   margin: 0;
 }
 
-header {
-  left: 0;
-  right: 0;
-  position: fixed;
-  width: auto;
+/*Estilos para los textos*/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
 }
 
-nav {
-  background-color: white;
-  display: block;
-  text-align: center;
-  width: auto;
-  height: auto;
+/*Tamaño del logo*/
+.logo {
+  color: #BD081C;
+  font-size: 40px;
 }
 
-hr {
-  clear: left;
-  display: block;
+/*Tamaño de los iconos ubicados en la parte derecha en la cabecera*/
+.icon {
+  font-size: 25px;
 }
 
-
-div {
-  display: inline-block;
-  float: left;
+/*Color de fondo gris*/
+.background-gray {
+  background-color:  #EFEFEF;
 }
 
-input {
-  width:  600px;
-  height: 30px;
-  border-radius: 4px;
+/*Color gris*/
+.color-gray {
+  color: #B5B5B5;
 }
 
-ul {
-  clear: left;
-  list-style: none;
-  overflow: auto;
-  padding-bottom: 1%;
-}
-
-li {
-  float: left;
-  margin-left:  40px;
-  line-height: 50px;
+/*Estilos para el menu*/
+.menu {
   border-radius: 10px;
-  /*background-color: red;*/
+  display: inline-block;
+  /*Alinear los bloques en la parte superior*/
+  padding-left: 5%;
+  padding-right: 40px;
+  vertical-align:middle;
 }
 
-a {
+/*margen para el submenu*/
+.container-1 {
+  margin-left: 50px;
+}
+
+/*Caja de texto del menu*/
+.box-text {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 40px;
+  width: 740px;
+}
+
+/*Pseudo-clases para el color del submenu vertical*/
+.sub-menu li:nth-child(2n-1) {
+    background-color:  #746050;
+}
+
+.sub-menu li:nth-child(2n) {
+    background-color:  #AB8B6F;
+}
+
+.sub-menu li:nth-child(4n) {
+    background-color:  #96944D;
+}
+
+/*Cabecera*/
+header {
+  background-color: #FFF;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width:  100%;
+}
+
+/*Linea horizontal que divide el menu y el submenu*/
+hr {
+  margin: 10px 0px;
+}
+
+/*Sub menu*/
+.sub-menu {
+  list-style: none;
+}
+
+.sub-menu li {
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.sub-menu li a {
+  color: #fff;
   display: block;
+  height: 60px;
   text-align: center;
-  padding: 0 20px;
   text-decoration: none;
-  color: white;
+  padding: 20px;
 }
 
-
-
-.image-logo{
-  width: 50px;
-  height: 50px;
+/*Seccion del contenido*/
+section {
+  margin: 150px 60px 0 60px;
 }
 
-.logo-pinterest {
-  float: left;
-}
-
-
-
-article {
-  float: left;
+.image-section {
+  display: inline-block;
   margin-left: 20px;
-  margin-top: 200px;
-}
-
-section{
-  margin-left: 10px;
-
-}
-
-img {
   width: 280px;
-  height: auto;
-  border-radius: 20px;
 }
 
-img:first-child{
-  margin-left: 0;
+.image-section img {
+  border-radius: 10px;
+  padding: 0;
+  width: 280px;
 }
 
-.font-brown {
-  background-color: #746050;
-}
-
-.font-brown-light{
-  background-color: #ab8b6f;
-}
-
-.font-green {
-  background-color: #98954d;
+.text-image-section {
+  font-weight: normal;
+  margin-bottom: 10px;
 }
